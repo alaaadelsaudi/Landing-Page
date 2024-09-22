@@ -47,18 +47,23 @@ body {
   display: flex;
 }
 
+
 .nav-links li {
   margin-right: 20px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
 }
-
+.nav-links li:hover{
+background-color:#03423b;
+border-bottom: 3px solid rgba(0, 0,0 , 0.3);
+border-radius: 5px;
+}
 .nav-links a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #ccc;
 }
 
 .call a {
